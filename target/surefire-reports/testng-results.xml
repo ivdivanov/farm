@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="45" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="45" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+      <class name="BoarTest">
+        <test-method status="PASS" signature="testHenConstructing()[pri:0, instance:BoarTest@26aa12dd]" name="testHenConstructing" duration-ms="0" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHenConstructing -->
+      </class> <!-- BoarTest -->
+      <class name="RoosterTest">
+        <test-method status="PASS" signature="testHenConstructing()[pri:0, instance:RoosterTest@131276c2]" name="testHenConstructing" duration-ms="1" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHenConstructing -->
+      </class> <!-- RoosterTest -->
+      <class name="FarmTest">
+        <test-method status="PASS" signature="addingAnimalsToTheFarm()[pri:0, instance:FarmTest@1f554b06]" name="addingAnimalsToTheFarm" duration-ms="1" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingAnimalsToTheFarm -->
+        <test-method status="PASS" signature="removingAnimalsWithButchering()[pri:0, instance:FarmTest@1f554b06]" name="removingAnimalsWithButchering" duration-ms="2" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removingAnimalsWithButchering -->
+      </class> <!-- FarmTest -->
+      <class name="HenTest">
+        <test-method status="PASS" signature="testHenConstructing()[pri:0, instance:HenTest@694e1548]" name="testHenConstructing" duration-ms="0" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHenConstructing -->
+      </class> <!-- HenTest -->
+      <class name="CowTest">
+        <test-method status="PASS" signature="testCowConstructing()[pri:0, instance:CowTest@7c29daf3]" name="testCowConstructing" duration-ms="6" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCowConstructing -->
+      </class> <!-- CowTest -->
+      <class name="SowTest">
+        <test-method status="PASS" signature="testSowConstructing()[pri:0, instance:SowTest@1c3a4799]" name="testSowConstructing" duration-ms="0" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSowConstructing -->
+      </class> <!-- SowTest -->
+      <class name="BullTest">
+        <test-method status="PASS" signature="testHenConstructing()[pri:0, instance:BullTest@614ddd49]" name="testHenConstructing" duration-ms="1" started-at="2022-04-05T09:45:48 EEST" finished-at="2022-04-05T09:45:48 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHenConstructing -->
+      </class> <!-- BullTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
