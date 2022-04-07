@@ -32,4 +32,8 @@ public abstract class Animal implements IButcherable, IProduceable, IPlayable{
     public String getName() {
         return name;
     }
+
+    public void identifyProducing(Class farmBuilding) {
+
+    }
 }

@@ -14,7 +14,7 @@ public class Main {
         logger.info("I've got the power");
 
         Hen henny = new Hen(3);
-        Sow prascho = new Sow(3);
+        Boar prascho = new Boar(3);
         Bull milcho = new Bull(0);
         Farm farm = new Farm();
 
@@ -24,12 +24,13 @@ public class Main {
         Farm.HenHouse henHouse = farm.new HenHouse();
         Farm.Pigsty pigsty = farm.new Pigsty();
 
-
+        prascho.setAlive(false);
         pigsty.entersThePigsty(prascho);
-        slaughterhouse.entersTheSlaughterHouse(henny);
+        pigsty.entersThePigsty(milcho);
+/*        slaughterhouse.entersTheSlaughterHouse(henny);
         slaughterhouse.entersTheSlaughterHouse(prascho);
-        slaughterhouse.entersTheSlaughterHouse(milcho);
-        pigsty.entersThePigsty(prascho);
+        slaughterhouse.entersTheSlaughterHouse(milcho);*/
+
 
 
     }
