@@ -19,7 +19,6 @@ public class Hen extends Chicken{
         Main.logger.info("Is playing with the other animals");
     }
 
-    @Override
     public void identifyProducing(Class farmBuilding) {
         if (isAlive()) {
             if (farmBuilding == Farm.HenHouse.class) {

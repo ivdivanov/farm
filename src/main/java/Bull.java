@@ -23,7 +23,6 @@ public class Bull extends Cattle{
         Main.logger.trace("Is playing with the other animals");
     }
 
-    @Override
     public void identifyProducing(Class farmBuilding) {
         if (isAlive()) {
             if (farmBuilding == Farm.Shed.class) {

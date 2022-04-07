@@ -24,7 +24,6 @@ public class Cow extends Cattle implements IButcherable {
         Main.logger.info("Is playing with the other animals");
     }
 
-    @Override
     public void identifyProducing(Class farmBuilding) {
         if (isAlive()) {
             if (farmBuilding == Farm.Shed.class) {

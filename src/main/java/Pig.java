@@ -9,9 +9,4 @@ public abstract class Pig extends Animal{
 
     }
 
-    @Override
-    public void identifyProducing(Class farmBuilding) {
-
-    }
-
 }

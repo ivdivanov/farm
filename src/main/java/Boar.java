@@ -18,7 +18,6 @@ public class Boar extends Pig{
         Main.logger.debug("Is playing with the other animals");
     }
 
-    @Override
     public void identifyProducing(Class farmBuilding) {
         if (isAlive()) {
             if (farmBuilding == Farm.Pigsty.class) {
