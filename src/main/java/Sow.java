@@ -20,4 +20,16 @@ public class Sow extends Pig{
     public void play() {
         Main.logger.warn("Is playing with the other animals");
     }
+
+    public void identifyProducing(Class farmBuilding) {
+        if (isAlive()) {
+            if (farmBuilding == Farm.Pigsty.class) {
+                this.produce();
+            }else {
+                this.play();
+            }
+        }else {
+            Main.logger.error(this.getName() + " is dead");
+        }
+    }
 }

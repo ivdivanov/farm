@@ -1,4 +1,4 @@
-public abstract class Animal implements IButcherable, IProduceable, IPlayable{
+public abstract class Animal implements IButcherable, IProduceable, IPlayable, identifyProducing {
 
     protected String typeOfMovement;
     protected String coat;
@@ -32,4 +32,5 @@ public abstract class Animal implements IButcherable, IProduceable, IPlayable{
     public String getName() {
         return name;
     }
+
 }

@@ -22,4 +22,17 @@ public class Bull extends Cattle{
     public void play() {
         Main.logger.trace("Is playing with the other animals");
     }
+
+    public void identifyProducing(Class farmBuilding) {
+        if (isAlive()) {
+            if (farmBuilding == Farm.Shed.class) {
+                this.produce();
+            }else {
+                this.play();
+            }
+        }else {
+            Main.logger.error(this.getName() + " is dead");
+        }
+
+    }
 }

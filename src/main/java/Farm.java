@@ -24,43 +24,27 @@ public class Farm {
 
     public class HenHouse {
 
-        public void entersTheHen(Animal animal) {
-            if (animal.getClass() == Hen.class) {
-                animal.produce();
-            } else {
-                animal.play();
-            }
-
+        public void entersTheHenHouse(Animal animal) {
+            animal.identifyProducing(this.getClass());
         }
 
     }
 
     public class Pigsty {
+
         public void entersThePigsty(Animal animal) {
-            if (animal.isAlive() == false) {
-                Main.logger.error("the animal is dead and can't perform actions");
-            } else {
-                if (animal.getClass() == Sow.class || animal.getClass() == Boar.class) {
-                    animal.produce();
-                } else {
-                    animal.play();
-                }
-            }
+            animal.identifyProducing(this.getClass());
         }
+
     }
 
     public class Shed {
         public void entersTheShed(Animal animal) {
-            if (animal.isAlive() == false) {
-                Main.logger.error("the animal is dead and can't perform actions");
-            } else {
-                if (animal.getClass() == Cow.class || animal.getClass() == Bull.class) {
-                    animal.produce();
-                } else {
-                    animal.play();
-                }
-            }
+            animal.identifyProducing(this.getClass());
         }
     }
+
+
+
 
 }
