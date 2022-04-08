@@ -1,3 +1,5 @@
+package farm.animals;
+
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 

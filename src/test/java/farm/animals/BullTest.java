@@ -1,3 +1,5 @@
+package farm.animals;
+
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
@@ -9,7 +11,7 @@ public class BullTest {
         Bull bik = new Bull(2);
         assertEquals(bik.getSex(),'m');
         assertEquals(bik.getAge(), 2);
-        assertTrue(bik.isAlive);
+        assertTrue(bik.isAlive());
     }
 
 }

@@ -1,11 +1,17 @@
-public abstract class Animal implements IButcherable, IProduceable, IPlayable{
+package farm.animals;
+
+import farm.IButcherable;
+import farm.IPlayable;
+import farm.IProduceable;
+import farm.Main;
+
+public abstract class Animal implements IButcherable, IProduceable, IPlayable {
 
     protected String typeOfMovement;
     protected String coat;
     protected String size;
     protected int age;
     protected char sex;
-    protected String name;
     protected boolean isAlive;
 
     protected Animal(int age) {
@@ -29,7 +35,10 @@ public abstract class Animal implements IButcherable, IProduceable, IPlayable{
         isAlive = alive;
     }
 
-    public String getName() {
-        return name;
+    public abstract String getName();
+
+    @Override
+    public void play() {
+        Main.logger.info("Is playing with the other animals");
     }
 }

@@ -1,12 +1,19 @@
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+package farm.animals;
+
+import farm.Main;
 
 public class Sow extends Pig{
 
-    protected Sow(int age) {
+    public static final String NAME = "sow";
+
+    public Sow(int age) {
         super(age);
         this.sex = 'f';
-        this.name = "sow";
+    }
+
+    @Override
+    public String getName() {
+        return NAME;
     }
 
     public void butch() {
@@ -15,9 +22,5 @@ public class Sow extends Pig{
 
     public void produce() {
         Main.logger.warn("got fatter");
-    }
-
-    public void play() {
-        Main.logger.warn("Is playing with the other animals");
     }
 }

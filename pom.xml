@@ -21,7 +21,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <!-- https://mvnrepository.com/rtifact/org.slf4j/slf4j-api -->
 
     </properties>
 </project>
