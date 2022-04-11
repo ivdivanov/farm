@@ -1,14 +1,19 @@
-import org.testng.annotations.Test;
+package farm;
 
-import java.util.ArrayList;
+import farm.animals.Animal;
+import farm.animals.Boar;
+import farm.animals.Cow;
+import farm.animals.Sow;
+import farm.facilities.Slaughterhouse;
+import farm.Farm;
+import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
 public class FarmTest {
 
     Farm farm = new Farm();
-    Farm.Slaughterhouse slaughterhouse = farm.new Slaughterhouse();
-
+    Slaughterhouse slaughterhouse = new Slaughterhouse();
     Animal pig = new Boar(3);
 
     @Test
@@ -21,11 +26,7 @@ public class FarmTest {
     @Test
     public void removingAnimalsWithButchering() {
         Animal cow = new Cow(3);
-        slaughterhouse.entersTheSlaughterHouse(cow);
-        assertEquals(cow.isAlive(),false);
-
+        slaughterhouse.enterFacility(cow);
+        assertFalse(cow.isAlive());
     }
-
-
-
 }

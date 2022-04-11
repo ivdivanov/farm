@@ -1,3 +1,4 @@
+import farm.animals.Hen;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
@@ -9,7 +10,7 @@ public class HenTest {
         Hen pile = new Hen(2);
         assertEquals(pile.getSex(),'f');
         assertEquals(pile.getAge(), 2);
-        assertTrue(pile.isAlive);
+        assertTrue(pile.isAlive());
     }
 
 }
