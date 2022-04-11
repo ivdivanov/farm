@@ -2,7 +2,6 @@ package farm.facilities;
 
 import farm.Main;
 import farm.animals.Animal;
-import farm.facilities.Facility;
 
 public class Field extends Facility {
 

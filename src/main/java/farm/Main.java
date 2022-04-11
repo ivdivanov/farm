@@ -38,8 +38,14 @@ public class Main {
         List<Animal> animals = new ArrayList<Animal>();
         animals.add(henny);
         animals.add(prascho);
+        animals.add(milcho);
+        slaughterhouse.enterFacility(henny);
+        slaughterhouse.enterFacility(prascho);
         for (Animal animal : animals) {
             henHouse.enterFacility(animal);
+        }
+        for (Animal animal : animals) {
+            pigsty.enterFacility(animal);
         }
 
 

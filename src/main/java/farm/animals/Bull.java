@@ -17,7 +17,7 @@ public class Bull extends Cattle {
     }
 
     public void produce() {
-        Main.logger.trace("prepare for plow");
+        Main.logger.info("prepare for plow");
     }
 
     public void butch() {

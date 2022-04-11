@@ -15,12 +15,4 @@ public class Boar extends Pig {
     public String getName() {
         return NAME;
     }
-
-    public void butch() {
-        Main.logger.debug("produce pork and pigskin");
-    }
-
-    public void produce() {
-        Main.logger.debug("got fatter");
-    }
 }

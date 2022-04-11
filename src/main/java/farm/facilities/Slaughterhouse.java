@@ -21,12 +21,6 @@ public class Slaughterhouse extends Facility {
         animal.butch();
     }
 
-//    public void entersTheSlaughterHouse(Animal animal) {
-//        if (animal.isAlive()) {
-//            animal.butch();
-//            animal.setAlive(false);
-//        } else {
-//            Main.logger.error("The animal was butchered once already");
-//        }
-//    }
+
+
 }

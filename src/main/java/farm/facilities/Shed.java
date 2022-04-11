@@ -19,15 +19,3 @@ public class Shed extends Facility {
         return NAME;
     }
 }
-
-//    public void entersTheShed(Animal animal) {
-//        if (animal.isAlive() == false) {
-//            Main.logger.error("the animal is dead and can't perform actions");
-//        } else {
-//            if (animal.getClass() == Cow.class || animal.getClass() == Bull.class) {
-//                animal.produce();
-//            } else {
-//                animal.play();
-//            }
-//        }
-//    }

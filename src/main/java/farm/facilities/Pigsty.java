@@ -23,15 +23,4 @@ public class Pigsty extends Facility {
         return NAME;
     }
 
-//    public void entersThePigsty(Animal animal) {
-//        if (animal.isAlive() == false) {
-//            Main.logger.error("the animal is dead and can't perform actions");
-//        } else {
-//            if (animal.getClass() == Sow.class || animal.getClass() == Boar.class) {
-//                animal.produce();
-//            } else {
-//                animal.play();
-//            }
-//        }
-//    }
 }

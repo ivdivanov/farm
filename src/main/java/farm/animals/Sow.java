@@ -15,12 +15,4 @@ public class Sow extends Pig{
     public String getName() {
         return NAME;
     }
-
-    public void butch() {
-        Main.logger.warn("produce pork and pigskin");
-    }
-
-    public void produce() {
-        Main.logger.warn("got fatter");
-    }
 }
